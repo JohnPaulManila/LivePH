@@ -1,0 +1,17 @@
+{
+  "name": "liveph",
+  "version": "1.0.0",
+  "description": "LivePH live streaming social app (frontend)",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=5500 --open=index.html",
+    "dev": "live-server --port=5500 --open=index.html"
+  },
+  "keywords": ["liveph", "live", "streaming"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
